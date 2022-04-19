@@ -1,0 +1,146 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   18 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "ti1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1829-1832"\
+    }\
+    ChartData {\
+      Name         "ti1_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1829-1832"\
+    }\
+    ChartData {\
+      Name         "yi1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1845-1848"\
+    }\
+    ChartData {\
+      Name         "tf1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1861-1864"\
+    }\
+    ChartData {\
+      Name         "yf1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1877-1880"\
+    }\
+    ChartData {\
+      Name         "T1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1893-1895"\
+    }\
+    ChartData {\
+      Name         "flag1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1908-1913"\
+    }\
+    ChartData {\
+      Name         "count1"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1926-1932"\
+    }\
+    ChartData {\
+      Name         "yi2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1961-1964"\
+    }\
+    ChartData {\
+      Name         "tf2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1977-1980"\
+    }\
+    ChartData {\
+      Name         "yf2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:1993-1996"\
+    }\
+    ChartData {\
+      Name         "T2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:2009-2011"\
+    }\
+    ChartData {\
+      Name         "flag2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:2024-2029"\
+    }\
+    ChartData {\
+      Name         "count2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "double_pendulum_2:81:2042-2048"\
+    }\
+    ChartData {\
+      Name         "method"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2022a\toolbox\eml\lib\matlab\randfun\private\eml_rand.m:523-529"\
+    }\
+    ChartData {\
+      Name         "state"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2022a\toolbox\eml\lib\matlab\randfun\private\eml_rand_mcg16807_stateful.m:164-169"\
+    }\
+    ChartData {\
+      Name         "state"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2022a\toolbox\eml\lib\matlab\randfun\private\eml_rand_shr3cong_stateful.m:165-170"\
+      Dimensions   [2]\
+    }\
+    ChartData {\
+      Name         "state"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "C:\Program Files\MATLAB\R2022a\toolbox\eml\lib\matlab\randfun\private\eml_rand_mt19937ar_stateful.m:166-171"\
+      Dimensions   [625]\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
